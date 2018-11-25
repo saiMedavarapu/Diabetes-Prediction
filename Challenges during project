@@ -1,0 +1,6 @@
+Few challenges which I faced during the project.
+Unable to open the file in the jupyter. : Use r beside the path to open it.
+'method' object is not subscriptable: did not call the object properly
+tuple index out of range
+Important: spent a lot of time in from sklearn.cross_validation import train_test_split but later realized that it’s not in that library any more they changed it to from sklearn.model_selection import train_test_split
+I had an other issue with the warning when I was trying to impute it gave me deprecator warning which I got rid of by importing the ‘import warnings warnings.filterwarnings("ignore", category=DeprecationWarning) 
